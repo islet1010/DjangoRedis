@@ -1,7 +1,6 @@
 from django.http.response import HttpResponse
 from django.shortcuts import render
 from django_redis import get_redis_connection
-from redis import StrictRedis
 
 
 def index(request):
